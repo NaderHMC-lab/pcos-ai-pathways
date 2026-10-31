@@ -1,0 +1,34 @@
+{
+  "cohort_raw_sizes": {
+    "kaggle_train": 1924,
+    "kaggle_test": 1922,
+    "pcosgen_train": 3200,
+    "zenodo": 1468
+  },
+  "cohort_dedup_sizes": {
+    "kaggle_all": 1914,
+    "pcosgen": 2560,
+    "zenodo": 1325
+  },
+  "cross_cohort": {
+    "kaggle_pcosgen_pairs": 334,
+    "kaggle_pcosgen_unique_kag": 150,
+    "kaggle_pcosgen_unique_pg": 300,
+    "kaggle_zenodo_pairs": 161,
+    "kaggle_zenodo_unique_kag": 102,
+    "kaggle_zenodo_unique_zen": 140,
+    "pcosgen_zenodo_pairs": 2855,
+    "pcosgen_zenodo_unique_pg": 1120,
+    "pcosgen_zenodo_unique_zen": 824
+  },
+  "training_pool": {
+    "pcosgen_kept": 1440,
+    "kaggle_kept": 1732,
+    "total": 3172,
+    "prevalence_pcos_pos": 0.5412988650693569
+  },
+  "external_test": {
+    "n": 471,
+    "prevalence_pcos_pos": 0.29723991507430997
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "device": "mps",
+  "architecture": "mobilenet_v3_small",
+  "img_size": 224,
+  "class_to_idx": {
+    "infected": 0,
+    "notinfected": 1
+  },
+  "class_convention": "y=1 means PCOS-positive (infected)",
+  "history": [
+    {
+      "phase": 1,
+      "epoch": 0,
+      "tr_loss": 0.09221139138514371,
+      "tr_accuracy": 0.9688264058679706,
+      "tr_roc_auc": 0.9974428798634547,
+      "va_loss": 0.30341318911976284,
+      "va_accuracy": 0.875,
+      "va_roc_auc": 0.9999007936507937,
+      "time": 7.062807083129883
+    },
+    {
+      "phase": 1,
+      "epoch": 1,
+      "tr_loss": 0.002115357774158958,
+      "tr_accuracy": 0.9993887530562348,
+      "tr_roc_auc": 1.0,
+      "va_loss": 0.10632899444964197,
+      "va_accuracy": 0.9548611111111112,
+      "va_roc_auc": 1.0,
+      "time": 5.991518974304199
+    },
+    {
+      "phase": 1,
+      "epoch": 2,
+      "tr_loss": 0.0011720706302129542,
+      "tr_accuracy": 0.9993887530562348,
+      "tr_roc_auc": 1.0,
+      "va_loss": 0.04596360555539528,
+      "va_accuracy": 0.9826388888888888,
+      "va_roc_auc": 1.0,
+      "time": 5.958035945892334
+    },
+    {
+      "phase": 2,
+      "epoch": 0,
+      "tr_loss": 0.0005015150585419308,
+      "tr_accuracy": 1.0,
+      "tr_roc_auc": 1.0,
+      "va_loss": 1.6943604350672103e-05,
+      "va_accuracy": 1.0,
+      "va_roc_auc": 1.0,
+      "time": 10.360299110412598
+    },
+    {
+      "phase": 2,
+      "epoch": 1,
+      "tr_loss": 1.667863468478415e-05,
+      "tr_accuracy": 1.0,
+      "tr_roc_auc": 1.0,
+      "va_loss": 3.382132705256582e-06,
+      "va_accuracy": 1.0,
+      "va_roc_auc": 1.0,
+      "time": 9.692222356796265
+    },
+    {
+      "phase": 2,
+      "epoch": 2,
+      "tr_loss": 5.452101818937203e-05,
+      "tr_accuracy": 1.0,
+      "tr_roc_auc": 1.0,
+      "va_loss": 2.183820214440857e-05,
+      "va_accuracy": 1.0,
+      "va_roc_auc": 1.0,
+      "time": 9.698998928070068
+    },
+    {
+      "phase": 2,
+      "epoch": 3,
+      "tr_loss": 8.940971615590416e-06,
+      "tr_accuracy": 1.0,
+      "tr_roc_auc": 1.0,
+      "va_loss": 2.8981266249653952e-05,
+      "va_accuracy": 1.0,
+      "va_roc_auc": 1.0,
+      "time": 9.65031099319458
+    },
+    {
+      "phase": 2,
+      "epoch": 4,
+      "tr_loss": 2.782931809231247e-06,
+      "tr_accuracy": 1.0,
+      "tr_roc_auc": 1.0,
+      "va_loss": 1.8724728470766018e-05,
+      "va_accuracy": 1.0,
+      "va_roc_auc": 1.0,
+      "time": 9.543861865997314
+    }
+  ],
+  "best_val_auc": 1.0,
+  "test_metrics": {
+    "accuracy": 1.0,
+    "roc_auc": 1.0,
+    "pr_auc": 1.0,
+    "f1": 1.0,
+    "sensitivity": 1.0,
+    "specificity": 1.0,
+    "brier": 3.114137823782164e-06,
+    "confusion": [
+      [
+        1141,
+        0
+      ],
+      [
+        0,
+        781
+      ]
+    ]
+  }
+}
